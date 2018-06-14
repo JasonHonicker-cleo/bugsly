@@ -1,0 +1,4 @@
+define Z {
+	var a = typeof(Boolean)
+	var b = typeof(BOOLEAN)
+}

@@ -1,0 +1,6 @@
+grammar x.buglang.Bugsly with org.eclipse.xtext.xbase.annotations.XbaseWithAnnotations hidden(WS, SL_COMMENT)
+
+generate bugsly "http://www.buglang.x/Bugsly"
+
+File:
+	'define' name=ID body=XBlockExpression;
